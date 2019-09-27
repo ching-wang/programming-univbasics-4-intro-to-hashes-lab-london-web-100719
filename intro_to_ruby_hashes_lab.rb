@@ -1,17 +1,17 @@
-def new_hash
+def new_hash()
   return {}
 end
 
-def my_hash
+def my_hash()
  new_hash = {"age" => 28, "city" => "Shanghai" }
  return new_hash 
 end
 
-def pioneer
+def pioneer()
  return {:name => 'Grace Hopper'}
 end
 
-def id_generator
+def id_generator()
   return{:id => 10}
 end
 
